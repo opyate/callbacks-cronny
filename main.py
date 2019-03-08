@@ -4,10 +4,8 @@ from lib.postprocess import update_callbacks
 from lib.handler import handle
 import multiprocessing
 import datetime
-import functools
 
 
-# TODO check how many open files we can have on target platform
 # TODO live check
 config = DevConfig
 
